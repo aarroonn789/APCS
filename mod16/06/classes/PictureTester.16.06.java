@@ -111,6 +111,17 @@ public class PictureTester
     gull.mirrorGull();
     gull.explore();
   }
+
+  //Method to test copy method
+
+    public static void testCopy()
+    {
+        Picture canvas = new Picture("640x480.jpg");
+        Picture gull = new Picture("seagull.jpg");
+        gull.explore();
+        canvas.copy(gull, 225, 225, 330, 330, 250, 150);
+        canvas.explore();
+    }
   
   /** Method to test the collage method */
   public static void testCollage()
@@ -118,6 +129,14 @@ public class PictureTester
     Picture canvas = new Picture("640x480.jpg");
     canvas.createCollage();
     canvas.explore();
+  }
+
+  public static void testMyCollage()
+  {
+      Picture canvas = new Picture("640x480.jpg");
+      canvas.createMyCollage();
+      canvas.explore();
+
   }
   
   /** Method to test edgeDetection */
@@ -127,6 +146,20 @@ public class PictureTester
     swan.edgeDetection(10);
     swan.explore();
   }
+
+    public static void testEdgeDetection2()
+    {
+        Picture swan = new Picture("swan.jpg");
+        swan.edgeDetection2(10);
+        swan.explore();
+    }
+
+    public static void testEdgeMap()
+    {
+        Picture swan = new Picture("swan.jpg");
+        swan.edgeMap(50);
+        swan.explore();
+    }
      
   
   /** Main method for testing.  Every class can have a main
@@ -159,7 +192,7 @@ public class PictureTester
     // Activity 7
     //testMirrorTemple();
     //testMirrorArms();
-    testMirrorGull();
+    //testMirrorGull();
 
     
     // Activity 8
@@ -170,7 +203,8 @@ public class PictureTester
     // Activity 9
     //testEdgeDetection();
     //testEdgeDetection2();
-    
+    testEdgeMap();
+
     // Extra methods
     //testChromakey();
     //testEncodeAndDecode();

@@ -1,0 +1,7 @@
+Purpose: Manipulate photos and edge detection
+Author: Aaron H
+Date: 8-3-18
+
++ I enjoyed writing my own edge detection method. Edge detection seems like a very hard thing to do.
+ = before I wrote my method I felt like it would be extremely complicated. However, it is actually reasonably
+ = straightforward once I understood the concept behind the method.

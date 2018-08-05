@@ -21,7 +21,7 @@ import java.util.List; // resolves problem with java.awt.List and java.util.List
  * 
  * @author Barbara Ericson ericson@cc.gatech.edu
  */
-public class Picture extends SimplePicture 
+public class Picture extends SimplePicture
 {
   ///////////////////// constructors //////////////////////////////////
   
@@ -345,15 +345,26 @@ public class Picture extends SimplePicture
     * @param toStartRow the row to start copying to
     * @param toStartCol the column to start copying to
     */
-  public void copy(Picture fromPic, 
-                   int fromStartRow,
-                   int fromStartCol,
-                   int fromEndRow,
-                   int fromEndCol,
-                   int toStartRow, 
-                   int toStartCol)
+  public void copy(Picture fromPic, int fromStartRow, int fromStartCol, int fromEndRow, int fromEndCol, int toStartRow, int toStartCol)
   {
-    // to be completed for Activity 8
+      Pixel fromPixel = null;
+      Pixel toPixel = null;
+      Pixel[][] toPixels = this.getPixels2D();
+      Pixel[][] fromPixels = fromPic.getPixels2D();
+
+      for(int fromRow = fromStartRow, toRow = toStartRow;
+          fromRow < fromPixels.length && toRow < toPixels.length && fromRow <= fromEndRow;
+          fromRow++, toRow++)
+      {
+          for(int fromCol = fromStartCol, toCol = toStartCol;
+              fromCol < fromPixels[0].length && toCol < toPixels[0].length && fromCol <= fromEndCol;
+              fromCol++, toCol++)
+          {
+              fromPixel = fromPixels[fromRow][fromCol];
+              toPixel = toPixels[toRow][toCol];
+              toPixel.setColor(fromPixel.getColor());
+          }
+      }
   }
   
   
@@ -373,9 +384,27 @@ public class Picture extends SimplePicture
     this.mirrorVertical();
     this.write("collage.jpg");
   }
-  
+
+
   // myCollage
-  
+  public void createMyCollage()
+  {
+      Picture flower = new Picture("flower1.jpg");
+      Picture grayFlower = new Picture("flower2.jpg");
+      Picture gull = new Picture("seagull.jpg");
+      Picture redGull = new Picture("seagull.jpg");
+
+      grayFlower.grayscale();
+      redGull.keepOnlyRed();
+
+      this.copy(grayFlower, 0, 0);
+      this.copy(flower, 100, 0);
+      this.copy(gull, 225, 225, 330, 330, 200, 0);
+      this.copy(redGull, 225, 225, 330, 330, 320, 0);
+      this.mirrorVertical();
+
+      this.write("myCollage.jpg");
+  }
   
   /////////////////////////// Activity 9 ////////////////////////////
   /** Method to show large changes in color 
@@ -403,5 +432,57 @@ public class Picture extends SimplePicture
   }  
   
   // edgeDetection2
+    public void edgeDetection2(int edgeDist)
+    {
+        Pixel leftPixel = null;
+        Pixel rightPixel = null;
+        Pixel bottomPixel = null;
+        Pixel[][] pixels = this.getPixels2D();
+        Color rightColor = null;
+        Color bottomColor = null;
+        for (int row = 0; row < pixels.length-1; row++)
+        {
+            for (int col = 0; col < pixels[0].length-1; col++)
+            {
+                leftPixel = pixels[row][col];
+                rightPixel = pixels[row][col+1];
+                bottomPixel = pixels[row+1][col];
+
+                rightColor = rightPixel.getColor();
+                bottomColor = bottomPixel.getColor();
+                if (leftPixel.colorDistance(rightColor) > edgeDist || leftPixel.colorDistance(bottomColor) > edgeDist) {
+                    leftPixel.setColor(Color.BLACK);
+                }
+                else {
+                    leftPixel.setColor(Color.WHITE);
+                }
+            }
+        }
+    }
+
+    public void edgeMap(int sensitivity)
+    {
+        Pixel leftPixel = null;
+        Pixel rightPixel = null;
+        Pixel[][] pixels = this.getPixels2D();
+        Color rightColor = null;
+        int edgeColorValue;
+        for (int row = 0; row < pixels.length-1; row++)
+        {
+            for (int col = 0; col < pixels[0].length-1; col++)
+            {
+                leftPixel = pixels[row][col];
+                rightPixel = pixels[row][col+1];
+
+                rightColor = rightPixel.getColor();
+
+                edgeColorValue = (int)(leftPixel.colorDistance(rightColor) / sensitivity * 255);
+
+                leftPixel.setBlue(edgeColorValue);
+                leftPixel.setGreen(edgeColorValue);
+                leftPixel.setRed(edgeColorValue);
+            }
+        }
+    }
   
 } // this } is the end of class Picture, put all new methods before this
