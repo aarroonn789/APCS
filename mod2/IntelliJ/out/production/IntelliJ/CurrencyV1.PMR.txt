@@ -1,0 +1,9 @@
+Title: CurrencyV1
+Description: Preforms various currency-related calculations.
+Author: aaron
+Date: 10/15/2017
+
+=== P M R ===
++ I enjoyed working with various currencies.
+= Placement of parenthesis around calculations makes my code much easier to read.
+- Need to be careful when casting to think about what types of variables I want and in what order, when preforming calculations.

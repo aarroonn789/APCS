@@ -1,0 +1,5 @@
+Desc: Sorts Movie objects
+Author: Aaron H
+Date: 8-2-18
+
++ I enjoyed learning about the Insertion sorting algorithm. I feel like I understand the concept well.

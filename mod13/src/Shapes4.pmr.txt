@@ -1,0 +1,7 @@
+Aaron Harabedian
+4-24-18
+ShapesTester4
+Demonstrates the versatility of object inheritance and method overrides.
+
++ Overrides seem very useful
+- Be mindful of overrides that will become inherited

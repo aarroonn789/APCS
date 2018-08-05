@@ -1,0 +1,5 @@
+Author: Aaron
+Description: Manages homework assignments
+Date: 7-30-18
+
++ I enjoyed adding the Interface to the Homework program. It made sense to me for organizing the classes and methods for completing homework.

@@ -1,0 +1,60 @@
+
+/**
+ * Purpose: MovieV2 class
+ *
+ * @author aaron h
+ * @version 8-2-18
+ *
+ */
+public class MovieV2
+{
+    // instance variables
+    private int year;
+    private String title;
+    private String studio;
+
+    // Constructor for objects of class MovieV2
+    public MovieV2(String title, int year, String studio)
+    {
+        // initialize instance variables
+        this.title = title;
+        this.year = year;
+        this.studio = studio;
+    }
+
+    public String getTitle()
+    {
+        return title;
+    }
+
+    public void setTitle(String title)
+    {
+        this.title = title;
+    }
+
+    public String getStudio()
+    {
+        return studio;
+    }
+
+    public void setStudio(String studio)
+    {
+        this.studio = studio;
+    }
+
+    public int getYear()
+    {
+        return year;
+    }
+
+    public void setYear(int year)
+    {
+        this.year = year;
+    }
+
+    public String toString()
+    {
+        String str = String.format("%-30s %4d   %-20s", title, year, studio);
+        return str;
+    }
+}

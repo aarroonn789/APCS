@@ -1,0 +1,8 @@
+Title: Family
+Description: Counts family children structures and calculates percentages.
+Author: aaron
+Date: 11/12/2017
+
+=== P M R ===
++ I really enjoyed this programming exercise
+- I had trouble casting the result to one decimal place. I think I over thought how I should have approached it.

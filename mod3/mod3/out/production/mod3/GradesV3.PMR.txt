@@ -1,0 +1,8 @@
+Title: GradesV3
+Description: Calculates grade average as grades are added.
+Author: aaron
+Date: 10/20/2017
+
+=== P M R ===
++ I like how we are building onto this Grades project
+= I thought that it was an interesting project. I think that using the for loop can make this easier.

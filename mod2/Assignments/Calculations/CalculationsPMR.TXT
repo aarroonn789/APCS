@@ -1,0 +1,7 @@
+PROJECT TITLE: Calculations
+PURPOSE OF PROJECT: Program does various calculations
+VERSION or DATE: 10-05-17
+AUTHOR: Aaron Harabedian
+==========P.M.R==========
++ I understood these concepts well.
++ I was able to do most of the steps easiliy.

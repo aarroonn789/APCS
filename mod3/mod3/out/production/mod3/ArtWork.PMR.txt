@@ -1,0 +1,8 @@
+Title: ArtWork
+Description: Prints stylized name
+Author: aaron
+Date: 10/15/2017
+
+=== P M R ===
++ I didnt have trouble with this assignment
+= Hand making ASCII art is not very easy. I found some cool tips online though!

@@ -1,0 +1,7 @@
+/**
+ * Name: Aaron Harabedian
+ * Date: 8-1-18
+ * Description: Tests "Candidate" class
+ */
+
+ + I enjoyed using the Candidate class to learn about replacement. I find the various types of data storage in Java interesting and hope to continue learning about them.

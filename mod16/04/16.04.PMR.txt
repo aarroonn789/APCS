@@ -1,0 +1,9 @@
+/**
+ * Name: Aaron Harabedian
+ * Date: 8-1-18
+ * Description: Tests "Candidate" class
+ */
+
+ + I enjoyed this section of writing the program as it really highlights the difference between Arrays and Lists/ArrayLists.
+ = I had been confused about differences between the data formats and why one would perfer to use Arrays.
+ = This exercise showed me how Arrays function differently than ArrayLists especially in regards to shifting objects within an array.

@@ -1,0 +1,6 @@
+Author: Aaron H
+Description: Finds prime numbers
+Date: 7-20-18
+
++ I enjoyed writing this program because the prompt was open ended enough to allow me to design the PrimeFinder class in any way I wanted.
+- I had an issue where 1 was being selected as a prime number. I should have chosen a different method of finding primes, but I solved the issue with my method.

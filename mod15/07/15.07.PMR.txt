@@ -1,0 +1,6 @@
+Name: Aaron Harabedian
+Date: 7-30-18
+Description: Pic lab part 2
+
++ I enjoyed updating the picture lab code. I liked manipulating the picture with mirroring.
+= This lab made me focus on planning out my algorithm beforehand.

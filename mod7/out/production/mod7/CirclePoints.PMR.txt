@@ -1,0 +1,8 @@
+Title: CirclePoints
+Description: Finds points on a circle
+Author: aaron
+Date: 11/29/2017
+
+=== P M R ===
++ The Math class is very useful! I feel comfortable using it.
+= It was a challenge to think about using two equations for the y value because the y value has a positive and negative equation

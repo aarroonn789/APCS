@@ -1,0 +1,7 @@
+Aaron H
+4-24-18
+MagpieRunner4
+A simple class to run the Magpie class, a program to carry on conversations with a human user.
+
++ I really liked adding the array to the getRandomResponse method. I think it makes code more elegant.
+- I think there is still room for improving the other methods in the Magpie4 class

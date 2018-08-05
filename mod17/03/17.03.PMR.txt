@@ -1,0 +1,6 @@
+Desc: Sorts Movie objects
+Author: Aaron H
+Date: 8-2-18
+
++ I enjoyed learning about the Selection sorting algorithm.
+= I accidentally flipped my Ascending/Descending order but caught the bug.

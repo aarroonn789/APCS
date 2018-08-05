@@ -1,0 +1,9 @@
+Title: BuyBlender
+Description: Online purchase system
+Author: aaron
+Date: 10/21/2017
+
+=== P M R ===
++ I enjoyed writing a program from scratch.
+= I notice how important good variable names are.
+- I accidentally returned the wrong variable.

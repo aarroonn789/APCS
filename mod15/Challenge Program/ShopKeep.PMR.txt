@@ -1,0 +1,5 @@
+Name: Aaron H
+Date: 7-30-18
+Description: Inventory program
+
++ I enjoyed writing the program. The different product categories showed me how useful interfaces can be in Java.

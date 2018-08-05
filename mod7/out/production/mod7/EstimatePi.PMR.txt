@@ -1,0 +1,9 @@
+Title: EstimatePi
+Description: Estimates pi by simulating dart throws
+Author: aaron
+Date: 1/5/2018
+
+=== P M R ===
+
+= I enjoyed the complexities of this program
+- Found myself questing how much I wanted to break the program up into functions. Too many small functions can be hard to work with

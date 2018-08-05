@@ -1,0 +1,8 @@
+Title: AnnualWeatherV2
+Description: 
+Author: aaron
+Date: 11/27/2017
+
+=== P M R ===
++ I appreciate the utility of the printf function
++ I feel like I understand lists well

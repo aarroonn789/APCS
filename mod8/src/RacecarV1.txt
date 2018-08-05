@@ -1,0 +1,13 @@
+RacecarV1
+
+<< In main method >>
++ int trackLength
++ int speed
++ int opponentSpeed
+
+<< Constructor >>
++ RacecarV1()
+
+<< Methods >>
++ double runLap(int trackLength, int speed)
++ boolean race(int trackLength, int speed, int opponentSpeed)

@@ -1,0 +1,8 @@
+Title: AnimalPopulation
+Description: 
+Author: aaron
+Date: 11/18/2017
+
+=== P M R ===
++ I really like thinking through these challenge programs.
+- Had an issue with an accidental infinite loop. Fixed that pretty quickly though!

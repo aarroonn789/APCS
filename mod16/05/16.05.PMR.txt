@@ -1,0 +1,6 @@
+Purpose: Gradebook for teachers as example for Student object
+Author: Aaron H
+Date: 8-2-18
+
++ I really enjoyed this challenge program. I feel like I understood the material well.
+= The program allowed me to demonstrate my knowledge of algorithms.

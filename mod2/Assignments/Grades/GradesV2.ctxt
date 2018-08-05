@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GradesV2
+comment0.text=\r\n\ Will\ calculate\ the\ total\ points\ and\ average\ grade\ each\ time\ a\ new\ score\ is\ added\ to\ the\ total.\r\n\r\n\ @author\ Aaron\ Harabedian\r\n\ @version\ 10/10/2017\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

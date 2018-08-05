@@ -1,0 +1,6 @@
+Author: Aaron
+Description: Manages homework assignments
+Date: 7-30-18
+
++ Adding the compareTo method was interesting because it is a method that is much more useful than it may appear.
++ I enjoyed adding this interface because it was a good example of a common interface that I have used earlier in the class.

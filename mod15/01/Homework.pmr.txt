@@ -1,0 +1,5 @@
+Author: Aaron
+Description: Manages homework assignments
+Date: 7-30-18
+
++ I feel like I understand abstract classes pretty well. I enjoyed writing this program as it showed me how powerful abstract classes can be and how much code I am able to reuse.

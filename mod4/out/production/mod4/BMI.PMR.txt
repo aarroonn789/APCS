@@ -1,0 +1,8 @@
+Title: BMI
+Description: Calculates user BMI
+Author: aaron
+Date: 11/6/2017
+
+=== P M R ===
++ I feel confident using if-else-if statements.
+- I need to double check units on equations.
