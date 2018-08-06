@@ -13,9 +13,10 @@
     <session id="828811668">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,51 +60,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/06/classes/Picture.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="985">
-                  <caret line="482" column="49" lean-forward="true" selection-start-line="482" selection-start-column="49" selection-end-line="482" selection-end-column="49" />
-                  <folding>
-                    <element signature="docComment;method#Picture#0;class#Picture#0" />
-                    <element signature="method#Picture#0;class#Picture#0" />
-                    <element signature="docComment;method#Picture#1;class#Picture#0" />
-                    <element signature="method#Picture#1;class#Picture#0" />
-                    <element signature="docComment;method#Picture#2;class#Picture#0" />
-                    <element signature="method#Picture#2;class#Picture#0" />
-                    <element signature="docComment;method#Picture#3;class#Picture#0" />
-                    <element signature="method#Picture#3;class#Picture#0" />
-                    <element signature="docComment;method#Picture#4;class#Picture#0" />
-                    <element signature="docComment;method#toString#0;class#Picture#0" />
-                    <element signature="method#toString#0;class#Picture#0" />
-                    <element signature="method#zeroBlue#0;class#Picture#0" />
-                    <element signature="method#keepOnlyRed#0;class#Picture#0" />
-                    <element signature="method#negate#0;class#Picture#0" />
-                    <element signature="method#grayscale#0;class#Picture#0" />
-                    <element signature="e#3686#3701#0" />
-                    <element signature="method#mirrorVerticalRightToLeft#0;class#Picture#0" />
-                    <element signature="docComment;method#mirrorVertical#0;class#Picture#0" />
-                    <element signature="method#mirrorVertical#0;class#Picture#0" />
-                    <element signature="method#mirrorHorizontal#0;class#Picture#0" />
-                    <element signature="method#mirrorHorizontalBotToTop#0;class#Picture#0" />
-                    <element signature="method#mirrorTemple#0;class#Picture#0" />
-                    <element signature="method#mirrorArms#0;class#Picture#0" />
-                    <element signature="method#mirrorGull#0;class#Picture#0" />
-                    <element signature="docComment;method#copy#0;class#Picture#0" />
-                    <element signature="method#copy#0;class#Picture#0" />
-                    <element signature="docComment;method#copy#1;class#Picture#0" />
-                    <element signature="method#copy#1;class#Picture#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/06/16.06.PMR.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
-                  <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+                  <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
                 </state>
               </provider>
             </entry>
@@ -111,7 +73,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/06/classes/Pixel.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="488">
+                <state relative-caret-position="5372">
                   <caret line="316" column="15" selection-start-line="316" selection-start-column="15" selection-end-line="316" selection-end-column="15" />
                 </state>
               </provider>
@@ -120,47 +82,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/06/classes/PictureTester.java">
+            <entry file="file://$PROJECT_DIR$/06/16.06.PMR.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="518">
-                  <caret line="160" column="23" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/06/classes/Picture.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="360" column="30" selection-start-line="360" selection-start-column="30" selection-end-line="360" selection-end-column="30" />
-                  <folding>
-                    <element signature="docComment;method#Picture#0;class#Picture#0" />
-                    <element signature="method#Picture#0;class#Picture#0" />
-                    <element signature="docComment;method#Picture#1;class#Picture#0" />
-                    <element signature="method#Picture#1;class#Picture#0" />
-                    <element signature="docComment;method#Picture#2;class#Picture#0" />
-                    <element signature="method#Picture#2;class#Picture#0" />
-                    <element signature="docComment;method#Picture#3;class#Picture#0" />
-                    <element signature="method#Picture#3;class#Picture#0" />
-                    <element signature="docComment;method#Picture#4;class#Picture#0" />
-                    <element signature="docComment;method#toString#0;class#Picture#0" />
-                    <element signature="method#toString#0;class#Picture#0" />
-                    <element signature="method#zeroBlue#0;class#Picture#0" />
-                    <element signature="method#keepOnlyRed#0;class#Picture#0" />
-                    <element signature="method#negate#0;class#Picture#0" />
-                    <element signature="method#grayscale#0;class#Picture#0" />
-                    <element signature="e#3686#3701#0" />
-                    <element signature="method#mirrorVerticalRightToLeft#0;class#Picture#0" />
-                    <element signature="docComment;method#mirrorVertical#0;class#Picture#0" />
-                    <element signature="method#mirrorVertical#0;class#Picture#0" />
-                    <element signature="method#mirrorHorizontal#0;class#Picture#0" />
-                    <element signature="method#mirrorHorizontalBotToTop#0;class#Picture#0" />
-                    <element signature="method#mirrorTemple#0;class#Picture#0" />
-                    <element signature="method#mirrorArms#0;class#Picture#0" />
-                    <element signature="method#mirrorGull#0;class#Picture#0" />
-                  </folding>
+                <state relative-caret-position="102">
+                  <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
                 </state>
               </provider>
             </entry>
@@ -216,7 +143,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -243,8 +170,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -392,23 +319,24 @@
       <option name="presentableId" value="Default" />
       <updated>1533138619987</updated>
       <workItem from="1533495334683" duration="5794000" />
+      <workItem from="1533569494304" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5794000" />
+    <option name="totallyTimeSpent" value="5845000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32275712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21444201" />
@@ -420,7 +348,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32946146" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -429,6 +357,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06/classes/Pixel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
+        <state relative-caret-position="5372">
           <caret line="316" column="15" selection-start-line="316" selection-start-column="15" selection-end-line="316" selection-end-column="15" />
         </state>
       </provider>
@@ -608,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06/classes/Picture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="482" column="49" lean-forward="true" selection-start-line="482" selection-start-column="49" selection-end-line="482" selection-end-column="49" />
+        <state relative-caret-position="2550">
+          <caret line="360" column="30" selection-start-line="360" selection-start-column="30" selection-end-line="360" selection-end-column="30" />
           <folding>
             <element signature="docComment;method#Picture#0;class#Picture#0" />
             <element signature="method#Picture#0;class#Picture#0" />
@@ -626,7 +555,6 @@
             <element signature="method#keepOnlyRed#0;class#Picture#0" />
             <element signature="method#negate#0;class#Picture#0" />
             <element signature="method#grayscale#0;class#Picture#0" />
-            <element signature="e#3686#3701#0" />
             <element signature="method#mirrorVerticalRightToLeft#0;class#Picture#0" />
             <element signature="docComment;method#mirrorVertical#0;class#Picture#0" />
             <element signature="method#mirrorVertical#0;class#Picture#0" />
@@ -635,10 +563,6 @@
             <element signature="method#mirrorTemple#0;class#Picture#0" />
             <element signature="method#mirrorArms#0;class#Picture#0" />
             <element signature="method#mirrorGull#0;class#Picture#0" />
-            <element signature="docComment;method#copy#0;class#Picture#0" />
-            <element signature="method#copy#0;class#Picture#0" />
-            <element signature="docComment;method#copy#1;class#Picture#0" />
-            <element signature="method#copy#1;class#Picture#0" />
           </folding>
         </state>
       </provider>
@@ -646,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/06/16.06.PMR.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
