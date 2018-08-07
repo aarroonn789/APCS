@@ -1,0 +1,6 @@
+Description: Card game
+Date: 8-4-18
+author: aaron H
+
++ I think making this card game will be a great way to use my Java knowledge so far.
++ I had a good time implementing the methods within the Card and Deck classes.

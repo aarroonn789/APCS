@@ -2,8 +2,8 @@
  * Card.java
  * Card represents a playing card.
  *
- *  < Your Name >
- *  < Today's Date >
+ *  aaron
+ *  8-4-18
  */
 
 public class Card {

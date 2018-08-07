@@ -1,8 +1,8 @@
 /**
  * This is a class that tests the Card class.
  *
- *  < Your Name >
- *  < Today's Date >
+ *  aaron
+ *  8-4-18
  */
 
 public class CardTester

@@ -1,0 +1,6 @@
+Purpose: Music library searches
+Author: Aaron H
+Date: 8-5-18
+
++ I enjoyed using all of the programming concepts I have learned to create this binary search program.
+I see how binary search can be helpful to find the index of an object in an array.
